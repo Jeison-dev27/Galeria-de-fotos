@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #deefef;
+    background-color: #319190;
+    color: #ffefb5;
 
 }
 /*navegacion e imagen de fondo*/
@@ -14,6 +15,7 @@ body{
     margin-right: 30px;
     background-color: whi;
     margin-top: 0px;
+    padding: 20px;
    
 }
 .navegacion h1{
@@ -34,14 +36,15 @@ body{
 }
 .navegacion-text  {
     text-decoration: none;
-    color: gray;
-    font-size: 22px;
+    color: #ffefb5;
+    font-size: 26px;
     font-weight: bold;
     transition: color  .3s linear;
+    font-family: voga;
     
 }
 .navegacion-text:hover{
-    color: #df2098;
+    color: #ff4000;
 }
 
 .imagenDeFondo{
@@ -50,7 +53,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 800px;
-color: wheat;
+color: #ffc803;
 }
 .imagenDeFondo{
     display: flex;
@@ -58,17 +61,19 @@ color: wheat;
     align-items: center;
     justify-content: center;
     font-size: 60px;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: voga;
 }
 .imagenDeFondo p{
     font-size: 30px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
+    font-family: voga;
 }
 .hastag{
     
     font-family: 'Bebas Neue', sans-serif;
 text-align: center;
+color: #ffefb5;
 
 }
 
@@ -80,44 +85,50 @@ text-align: center;
     justify-content: center;
 }
     .instructor{
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     width: 340px;
     justify-content: space-around;
     margin: 25px;
     padding: 15px;
     background-color: #f6f6f6;
-    font-weight: bold;
+    border-radius: 10%;
+    font-family: voga, sans-serif;
     
     }
     .titulo-instructores{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 30px;
+        font-size: 40px;
         margin: 30px;
+        font-family: voga;
 
     }
-    .instructor img{
-        width: 325px;
-        max-width: 325px;
-        flex-wrap: nowrap;
-        border-radius: 3%;
-    
+    .instructor-img{
+         width: 225px;
+        height: 225px;
+        max-width: 225px;
+        border-radius: 50%;    
+        margin: 0 auto;
     }
-    .instructor h4{
+    .instructor-nombre{
         font-size: 20px;
         text-transform:capitalize;
-        text-align: left;
+        text-align: center;
+        font-family: voga, sans-serif;
+        color: #260d0d;
     }
     .instructor-descripcion{
         font-size: 16px;
         color: black;
         text-align: justify;
         padding: 10px;
-        background-color: #deefef ;
+        font-family: voga, sans-serif;
+       
      
     }
+   
     /*Galeria de imagenes*/
 
    .galeria-de-imagenes{
@@ -136,33 +147,35 @@ text-align: center;
  padding: 10px;
  flex: 100%;
  margin: 3px;
+ box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 .imagenes img:hover{
-  border: solid 3px #df2098;
+  border: solid 3px #ff4000;
   border-radius: 5% ;
   
 }
 
 .footer{
     display: flex;
-    width: 100%;
+    width: 90%;
     height: auto;
     justify-content: space-around;
     color: black;
 font-size: 20px;
-margin-top:  60px;
+font-family: voga, sans-serif;
+margin: 0 auto;
 
   
 }
 .footer h3{
     color: black;
     font-size: 30px;
-    color: black;
+    color: #ffefb5;
 
 
 }
 .redes h3{
-    padding-top: 3px;
+    padding-top: 1px;
 }
 
 .sobre-nosotros {
@@ -176,7 +189,6 @@ margin-top:  60px;
     display: flex;
     flex-direction: column;
     width: 250px;
-    margin: 0;
 }
 .contactos a{
     
